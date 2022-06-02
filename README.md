@@ -8,7 +8,10 @@ Similar projects:
 
 ## Demo
 
-[Example of usage](https://demo.inplayo.com/js/sticky-blocks/)
+[Demo page](https://demo.inplayo.com/js/sticky-blocks/)
+
+
+[![Demo Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1654178245/video_to_markdown/images/youtube--mMl_7ZjgJ2A-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/mMl_7ZjgJ2A "Demo Video")
 
 ## Badges
 
