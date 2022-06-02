@@ -1,0 +1,100 @@
+html,
+body,
+.container {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  border-bottom: 2px solid #eeee;
+}
+
+.footer {
+  padding: 20px 0;
+  margin: auto;
+}
+
+.button{
+  width: 140px;
+  padding: 10px 0px;
+  border: 1px solid black;
+  text-align: center;
+}
+.button:hover{
+  cursor: pointer;
+  background: #eee;
+}
+.settings{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.settings > div{
+  margin-right: 10px;
+}
+
+.limited{
+    border: 2px solid black;
+    height: 90%;
+    width: 90%;
+}
+
+.resizable {
+  background: white;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1;
+}
+
+.resizable.deleted{
+  z-index: 0;
+}
+
+.resizable .resizers {
+  width: 100%;
+  height: 100%;
+  border: 2px solid gray;
+  box-sizing: border-box;
+}
+
+.resizable .resizers .resizer {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  line-height: 26px;
+  border: 2px solid gray;
+  position: absolute;
+  font-size: 8px;
+}
+
+/* drag */
+.resizable .resizers .resizer.top-left {
+  left: 0;
+  top: 0;
+  cursor: move;
+}
+.resizable .resizers .resizer.bottom-right {
+  right: 0;
+  bottom: 0;
+  cursor: nwse-resize;
+}
+.resizable .resizers .delete {
+  left: 80px;
+  top: 50px;
+  cursor: pointer;
+}
+.resizable .resizers .return {
+  left: 40px;
+  top: 50px;
+  cursor: pointer;
+}

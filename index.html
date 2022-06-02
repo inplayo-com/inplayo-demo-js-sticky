@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Fields JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <di class="content">
+            <div id="limited" class="limited"></div>
+            
+            <div class="settings">
+                <div id="add" class="button">add block</div>
+                <div>block count: <span id="blocksCountText">0</span> / 10</div>
+            </div>
+        </div>
+    </div>
+    <template id="block">
+        <div class='resizable'>
+            <div class='resizers'>
+                <div class='resizer top-left'>position</div>
+                <div class='resizer bottom-right'>size</div>
+
+                <div class="resizer return">enable</div>
+                <div class="resizer delete">disable</div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
